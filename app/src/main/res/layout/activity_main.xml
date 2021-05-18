@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/purple_200">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+       <RadioGroup
+           android:id="@+id/radioGroup1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="22dp"
+
+           >
+
+           <RadioButton
+               android:id="@+id/one"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/irwin"
+               android:checked="true"
+
+               />
+
+
+           <RadioButton
+               android:id="@+id/two"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/evans"
+               android:checked="true" />
+
+
+           <RadioButton
+               android:id="@+id/three"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/caroline"
+               android:checked="true"
+
+               android:textColor="@color/black"/>
+
+       </RadioGroup>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/message"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp" />
+
+         <RadioGroup
+             android:id="@+id/radioGroup2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="22dp">
+
+             <RadioButton
+                 android:id="@+id/message1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/got_it"
+
+                 android:checked="true"/>
+
+             <RadioButton
+                 android:id="@+id/message2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/ok" />
+             <RadioButton
+                 android:id="@+id/message3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/i_see"
+                 />
+             <RadioButton
+                 android:id="@+id/message4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/call_me_back"
+                 />
+             <RadioButton
+                 android:id="@+id/message5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/thanks" />
+
+         </RadioGroup>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/send"
+           android:layout_marginTop="50dp"
+           android:layout_gravity="center"
+           android:background="#27130632"
+           android:onClick="sendMessage"
+           />
+
+
+
+
+
+
+   </LinearLayout>
+
+</RelativeLayout>
