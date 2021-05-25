@@ -1,5 +1,6 @@
 # QuickMail
-![image](https://user-images.githubusercontent.com/51036990/119534197-517c3680-bd8f-11eb-8375-441b946a0ecc.png)
-![image](https://user-images.githubusercontent.com/51036990/119534300-6c4eab00-bd8f-11eb-81ad-b3cd92b51531.png)
+![image](https://user-images.githubusercontent.com/51036990/119567772-64096680-bdb5-11eb-8339-5ab9ca80f751.png)
+![image](https://user-images.githubusercontent.com/51036990/119567825-72578280-bdb5-11eb-9e64-a0e9bf135b27.png)
+
 
 
